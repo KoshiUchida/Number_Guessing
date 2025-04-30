@@ -45,6 +45,8 @@ void Gameplay::Initialize()
 
 	// Object Set
 	ObjectManager& om{ ObjectManager::GetInstance() };
+
+	//process
 }
 
 /// <summary>
