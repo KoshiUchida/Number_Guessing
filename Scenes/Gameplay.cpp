@@ -46,7 +46,8 @@ void Gameplay::Initialize()
 	// Object Set
 	ObjectManager& om{ ObjectManager::GetInstance() };
 
-	//process
+	//process Uchida
+	//process Watanabe
 }
 
 /// <summary>
