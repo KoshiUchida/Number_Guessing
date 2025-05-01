@@ -143,6 +143,7 @@
     <ClInclude Include="Manager\ResourceManager.h" />
     <ClInclude Include="Manager\SceneManager.h" />
     <ClInclude Include="Manager\ShareData.h" />
+    <ClInclude Include="Objects\MouseCollider.h" />
     <ClInclude Include="Objects\ObjectBace.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\Gameplay.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="Manager\ResourceManager.cpp" />
     <ClCompile Include="Manager\SceneManager.cpp" />
     <ClCompile Include="Manager\ShareData.cpp" />
+    <ClCompile Include="Objects\MouseCollider.cpp" />
     <ClCompile Include="Objects\ObjectBace.cpp" />
     <ClCompile Include="Scenes\Gameplay.cpp" />
     <ClCompile Include="Scenes\SceneBace.cpp" />

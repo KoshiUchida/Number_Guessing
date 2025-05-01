@@ -79,6 +79,7 @@
     <ClInclude Include="Common\Sprite2D.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="Objects\MouseCollider.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowSettingItems.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="Common\Sprite2D.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="Objects\MouseCollider.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico">
