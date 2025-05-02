@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Objects\Botton.h" />
     <ClInclude Include="Common\Animation2D.h" />
     <ClInclude Include="Common\Camera.h" />
     <ClInclude Include="Common\CCRandom.h" />
@@ -148,10 +149,12 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\Gameplay.h" />
     <ClInclude Include="Scenes\SceneBace.h" />
+    <ClInclude Include="Objects\StringBar.h" />
     <ClInclude Include="WindowSettingItems.h" />
     <ClInclude Include="WinMain.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Objects\Botton.cpp" />
     <ClCompile Include="Common\Animation2D.cpp" />
     <ClCompile Include="Common\Camera.cpp" />
     <ClCompile Include="Common\CCRandom.cpp" />
@@ -171,6 +174,7 @@
     <ClCompile Include="Objects\ObjectBace.cpp" />
     <ClCompile Include="Scenes\Gameplay.cpp" />
     <ClCompile Include="Scenes\SceneBace.cpp" />
+    <ClCompile Include="Objects\StringBar.cpp" />
     <ClCompile Include="WindowSettingItems.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>

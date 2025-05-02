@@ -30,6 +30,7 @@ void MouseCollider::Update()
 
 void MouseCollider::Render(const Camera& camera)
 {
+#if defined(_DEBUG)
 	Collisions::Box box = m_Collider.GetBox();
 	DrawBox(box.left, box.top, box.right, box.bottom, Colors::Cyan, true);
 
@@ -38,8 +39,14 @@ void MouseCollider::Render(const Camera& camera)
 		WSI& p_wsi{ WSI::GetInstance() };
 		DrawString(p_wsi.ScreenCenterX(), p_wsi.ScreenCenterY() + 50.f, "Mouse L-Click!!", Colors::White);
 	}
+#endif
 }
 
 void MouseCollider::Finalize()
 {
+}
+
+Collisions::BoxCollision* MouseCollider::GetCollider()
+{
+	return &m_Collider;
 }

@@ -20,8 +20,6 @@ class Gameplay
 private:
 	int m_FontSize;
 
-	int m_Answer;
-
 public:
 	// Main System
 	Gameplay();

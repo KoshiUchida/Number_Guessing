@@ -80,6 +80,8 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="Objects\MouseCollider.h" />
+    <ClInclude Include="Objects\Botton.h" />
+    <ClInclude Include="Objects\StringBar.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowSettingItems.cpp" />
@@ -139,6 +141,8 @@
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="Objects\MouseCollider.cpp" />
+    <ClCompile Include="Objects\Botton.cpp" />
+    <ClCompile Include="Objects\StringBar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico">
