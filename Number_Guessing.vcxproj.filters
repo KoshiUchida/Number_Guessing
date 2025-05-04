@@ -79,9 +79,15 @@
     <ClInclude Include="Common\Sprite2D.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="Objects\MouseCollider.h" />
-    <ClInclude Include="Objects\Botton.h" />
-    <ClInclude Include="Objects\StringBar.h" />
+    <ClInclude Include="Objects\Botton.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\MouseCollider.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\StringBar.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowSettingItems.cpp" />
@@ -140,9 +146,15 @@
     <ClCompile Include="Common\Sprite2D.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\MouseCollider.cpp" />
-    <ClCompile Include="Objects\Botton.cpp" />
-    <ClCompile Include="Objects\StringBar.cpp" />
+    <ClCompile Include="Objects\Botton.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\MouseCollider.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\StringBar.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.ico">

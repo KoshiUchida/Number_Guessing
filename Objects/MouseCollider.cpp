@@ -1,4 +1,14 @@
+/**
+ * @file   MouseCollider.cpp
+ *
+ * @brief  マウスオブジェクトのソースファイル
+ *
+ * @author CatCode
+ *
+ * @date   2025/05/04
+ */
 #include "MouseCollider.h"
+
 #include <DxLib.h>
 #include "../WindowSettingItems.h"
 #include "../Common/Colors.h"
@@ -9,9 +19,7 @@ MouseCollider::MouseCollider() :
 {
 }
 
-MouseCollider::~MouseCollider()
-{
-}
+MouseCollider::~MouseCollider() = default;
 
 void MouseCollider::Initialize()
 {
@@ -19,6 +27,7 @@ void MouseCollider::Initialize()
 
 void MouseCollider::Update()
 {
+	// 座標更新
 	int mousePosX{}, mousePosY{};
 
 	GetMousePoint(&mousePosX, &mousePosY);
@@ -31,6 +40,7 @@ void MouseCollider::Update()
 void MouseCollider::Render(const Camera& camera)
 {
 #if defined(_DEBUG)
+	// デバッグ時のあたり判定表示
 	Collisions::Box box = m_Collider.GetBox();
 	DrawBox(box.left, box.top, box.right, box.bottom, Colors::Cyan, true);
 
